@@ -1,0 +1,133 @@
+#commentsya * {
+    margin: 3px 0;
+}
+#commentsya {
+    font-family: tahoma, verdana, arial, sans-serif;
+    background-color: #F7F7F7;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table
+}
+.clearfix::after {
+    clear: both
+}
+.cmnts {
+    padding: 0 5px;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+.comments {
+    font-weight: 700;
+    text-align: center;
+    padding: 0 5px 10px
+}
+
+.cmnts .buttons {
+    padding-top: 10px;
+}
+.new-likes {
+    margin-top: 3px;
+    background-color: #eeeff4;
+    padding: 5px 5px 5px 23px;
+    background-image: url(https://i.imgur.com/s0PvMI1.png);
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: 5px center
+}
+.color-blue {
+    color: #3c5a96
+}
+.buttons {
+    margin-top: 14px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    color: #7d7d7f
+}
+.buttons span {
+    cursor: pointer
+}
+.buttons span:hover {
+    text-decoration: underline
+}
+.more {
+    margin-top: 3px;
+    background-color: #eeeff4;
+    padding: 5px 5px 5px 23px;
+    background-image: url(https://i.imgur.com/wzpS6xK.png);
+    background-size: 13px 12px;
+    background-position: 5px center;
+    background-repeat: no-repeat
+}
+.left {
+    cursor: pointer;
+    float: left;
+    color: #3c5a96
+}
+.left:hover {
+    text-decoration: underline
+}
+.right {
+    color: #7d7d7f;
+    float: right
+}
+
+.item {
+    position: relative;
+    margin-top: 3px;
+    background-color: #eeeff4;
+    padding: 5px 5px 5px 60px;
+    min-height: 60px;
+    box-sizing: border-box
+}
+.item .profileimg {
+    position: absolute;
+    top: 5px;
+    left: 5px
+}
+.comtxt {
+    line-height: 16px
+}
+.name {
+    color: #3c5a96;
+    font-weight: 700
+}
+.ago {
+    color: #86878c;
+    font-size: .95em
+}
+.new-like {
+    color: #3c5a96;
+    font-size: .95em;
+    cursor: pointer
+}
+.new-like:hover {
+    text-decoration: underline
+}
+.combot {
+    padding-top: 5px
+}
+.likes {
+    color: #3c5a96;
+    font-size: .95em;
+    cursor: pointer
+}
+.comments,
+.hidden .combot,
+.hidden .comtxt {
+    display: none
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
